@@ -38,7 +38,9 @@ namespace MongoDB.Driver
             "distinct",
             "geoNear",
             "geoSearch",
-            "geoWalk"
+            "geoWalk",
+			"replSetFreeze",
+			"fsync",
         };
 
         // public static properties
