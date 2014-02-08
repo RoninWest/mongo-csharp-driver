@@ -35,6 +35,10 @@ namespace MongoDB.Driver
         /// It's OK for the query to be handled by a secondary server.
         /// </summary>
         SlaveOk = 4,
+		/// <summary>
+		/// For querying local/oplog.rs
+		/// </summary>
+		OpLogReplay = 8,
         /// <summary>
         /// Tell the server not to let the cursor timeout.
         /// </summary>
